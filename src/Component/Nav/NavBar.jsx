@@ -6,10 +6,10 @@ export const NavBar = () => {
     <div className='nav'>
     <h1>coope onlie</h1>
     <ul>
-     <li>About</li>
-     <li>Carrers</li>
-     <li>Sobre nosotros</li>
-     <li>Test Online</li>
+     <li><a>About</a></li>
+     <li><a>Carrers</a></li>
+     <li><a>Sobre nosotros</a></li>
+     <li><a>Test Online</a></li>
     </ul>
     </div>
   )
