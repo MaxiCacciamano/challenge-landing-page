@@ -17,14 +17,54 @@ export const Creations = () => {
         <button>See all</button>
       </div>
       <div className="seccion">
-        <img src={eart} alt="deep eart"/>
+        <div className="image-container">
+        <img src={eart} alt="deep eart" />
+        <div className="texto">
+            <p>Deep eart</p>
+        </div>
+        </div>
+        <div className="image-container">
         <img src={arcade} alt="night arcade"/>
+        <div className="texto">
+            <p>Night arcade</p>
+        </div>
+        </div>
+        <div className="image-container">
         <img src={soccer} alt="soccer team vr "/>
+        <div className="texto">
+            <p>Soccer team vr</p>
+        </div>
+        </div>
+        <div className="image-container">
         <img src={grid} alt="the grid"/>
+        <div className="texto">
+            <p>The grid</p>
+        </div>
+        </div>
+        <div className="image-container">
         <img src={above} alt="from uo above"/>
+        <div className="texto">
+            <p>From up above vr</p>
+        </div>
+        </div>
+        <div className="image-container">
         <img src={pocket} alt="pocket above"/>
+        <div className="texto">
+            <p>Pocket borealis</p>
+        </div>
+        </div>
+        <div className="image-container">
         <img src={curiosity} alt="the curiosity"/>
+        <div className="texto">
+            <p>The curiosity</p>
+        </div>
+        </div>
+        <div className="image-container">
         <img src={fisheye} alt="make it fisheye"/>
+        <div className="texto">
+            <p>Make it fisheye</p>
+        </div>
+        </div>
       </div>
     </div>
   );

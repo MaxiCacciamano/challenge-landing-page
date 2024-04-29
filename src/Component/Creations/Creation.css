@@ -27,6 +27,19 @@
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 10px;
         
+
+        .image-container{
+            position: relative;
+        }
+        .texto{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            color: white;
+            padding: 10px;
+            box-sizing: border-box; /* Incluye el padding en el ancho total */
+        }
         img{
             width: 100%;
             height: auto;
