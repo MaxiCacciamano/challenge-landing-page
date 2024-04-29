@@ -28,11 +28,14 @@
             font-size: 90px;
             text-align: left;
             margin: auto;
+            color: white;
 
             font-family: "Jersey 15", sans-serif;
             font-family: 50px;
             font-weight: 400;
             font-style: normal;
+
+            text-transform: uppercase;
 
         }
     }

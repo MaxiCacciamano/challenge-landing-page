@@ -4,7 +4,7 @@ import './NavBar.css'
 export const NavBar = () => {
   return (
     <div className='nav'>
-    <h1>coope onlie</h1>
+    <h1>loopstudios</h1>
     <ul>
      <li><a>About</a></li>
      <li><a>Carrers</a></li>
