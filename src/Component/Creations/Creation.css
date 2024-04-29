@@ -20,26 +20,38 @@
             height: 2.7em;
             text-align: center
         }
+        button:hover{
+           color:rgb(217, 195, 168);
+        }
     }
 
     .seccion{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 10px;
+        cursor: pointer;
         
 
         .image-container{
             position: relative;
-        }
-        .texto{
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            color: white;
-            padding: 10px;
-            box-sizing: border-box; /* Incluye el padding en el ancho total */
-        }
+            .texto{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                color: white;
+                padding: 10px;
+                text-align: center;
+                font-size: 40px;
+                box-sizing: border-box; /* Incluye el padding en el ancho total */
+            }
+            .texto:hover{
+                color:rgb(217, 195, 168);
+            }
+    }
+    .image-container:hover{
+        padding: 10px;
+    }
         img{
             width: 100%;
             height: auto;

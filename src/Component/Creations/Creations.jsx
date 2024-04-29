@@ -20,49 +20,49 @@ export const Creations = () => {
         <div className="image-container">
         <img src={eart} alt="deep eart" />
         <div className="texto">
-            <p>Deep eart</p>
+            <p>Deep <br/>eart</p>
         </div>
         </div>
         <div className="image-container">
         <img src={arcade} alt="night arcade"/>
         <div className="texto">
-            <p>Night arcade</p>
+            <p>Night <br/> arcade</p>
         </div>
         </div>
         <div className="image-container">
         <img src={soccer} alt="soccer team vr "/>
         <div className="texto">
-            <p>Soccer team vr</p>
+            <p>Soccer <br/> team vr</p>
         </div>
         </div>
         <div className="image-container">
         <img src={grid} alt="the grid"/>
         <div className="texto">
-            <p>The grid</p>
+            <p>The <br/> grid</p>
         </div>
         </div>
         <div className="image-container">
         <img src={above} alt="from uo above"/>
         <div className="texto">
-            <p>From up above vr</p>
+            <p>From up <br/> above vr</p>
         </div>
         </div>
         <div className="image-container">
         <img src={pocket} alt="pocket above"/>
         <div className="texto">
-            <p>Pocket borealis</p>
+            <p>Pocket <br/> borealis</p>
         </div>
         </div>
         <div className="image-container">
         <img src={curiosity} alt="the curiosity"/>
         <div className="texto">
-            <p>The curiosity</p>
+            <p>The <br/> curiosity</p>
         </div>
         </div>
         <div className="image-container">
         <img src={fisheye} alt="make it fisheye"/>
         <div className="texto">
-            <p>Make it fisheye</p>
+            <p>Make it <br/> fisheye</p>
         </div>
         </div>
       </div>

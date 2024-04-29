@@ -19,6 +19,7 @@
         justify-content: space-between;
         padding-top: 15px;
         .networks{
+            cursor: pointer;
             img{
                 padding-left: 10px;
             }
@@ -28,11 +29,20 @@
     .data{
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        margin: 0;
             ul{
                 display: flex;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
                 li{
-                    text-align: left;
-                    margin-left: 10px;
+                    cursor: pointer;
+                    margin-right: 10px;
+                    list-style-type: none;
+                }
+                a:hover{
+                    color:rgb(217, 195, 168);
                 }
             }
     }
