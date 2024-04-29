@@ -11,6 +11,8 @@
             font-weight: 400;
             font-style: normal;
 
+            color: white;
+
             a{
                 font-size: 20px;
                 cursor: pointer;
@@ -26,6 +28,8 @@
         }
     }
     h1{
+        color: white;
+
         font-family: "Sacramento", cursive;
         font-weight: 400;
         font-style: normal;

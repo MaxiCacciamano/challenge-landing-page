@@ -4,8 +4,10 @@
   font-weight: 400; */
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: black;
+  background-color: white;
+
+  font-family: "Jersey 15", sans-serif;
 
   /*font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -20,6 +22,8 @@ body {
   /*place-items: center;
   min-height: 100vh;
   min-width: 320px; */
+
+
 }
 
 h1 {

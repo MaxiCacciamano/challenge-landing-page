@@ -20,11 +20,27 @@
 }
 
 .container{
-  /* width: 100%; */
-  min-width: 1000px;
+  width: 80%;
+  /* min-width: 1000px; */
   margin: 0 auto;
+}
 
+.creations{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
 
+.foo{
+  background-color: black;
+  /* width: 1500px;  */
+    margin: 0 auto;
+    align-items: center;
+    /* align-content: center; */
+    left: 0;
+    right: 0;
+    /* bottom: 0; */
+    position: absolute;
+  
 }
 
 .home-container{

@@ -1,0 +1,37 @@
+.our{
+    text-align: left;
+
+    text-transform: uppercase;
+    
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    font-weight: 100;
+    
+    
+    .more{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 40px;
+
+        button{
+            text-transform: uppercase;
+            height: 2.7em;
+            text-align: center
+        }
+    }
+
+    .seccion{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        
+        img{
+            width: 100%;
+            height: auto;
+            /* margin: 5px auto; */
+        }
+    }
+    
+}
